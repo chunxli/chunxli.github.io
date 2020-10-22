@@ -14,7 +14,7 @@ categories: appcenter macOS
 
 ## App Sandbox
 
-![App Sandbox](/_images/app_sandbox.png)
+![App Sandbox](../assets/app_sandbox.png)
 
 
 # Sparkle (In-App Update)
