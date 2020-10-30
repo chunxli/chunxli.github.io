@@ -21,7 +21,7 @@ categories: appcenter macOS
 
 - CocoPods: pod ‘Sparkle’
 - Set up a Sparkle updater object
-- Set up SUFeedURL property in Info.plist
+- Set up `SUFeedURL` property in **Info.plist**
 - Public Distribution Group (App Center)
 
 
@@ -36,7 +36,30 @@ categories: appcenter macOS
 
 # Sandboxing and Sparkle 2.0
 
-### [Sparkle 2.0](https://github.com/sparkle-project/Sparkle/blob/2.x/README.markdown)
+## [Sparkle 2.0](https://github.com/sparkle-project/Sparkle/blob/2.x/README.markdown)
+
+## Integration Steps
+
+### 1. Enable App Sandboxing if you need
+
+### 2. Make latest Sparkle 2.0 build
+
+git clone 
+
+```
+cd <path-to>/Sparkle/
+
+make release
+```
+
+[link](https://github.com/sparkle-project/Sparkle/blob/ui-separation-and-xpc/INSTALL.markdown#building)
+
+### 3. Drag Sparkle.framework and XPC files to project
+
+![sparkle2.0](./../assets/embed_frameworks_and_xpcs.png)
+
+### 4. Copy XPC files to XPC Service
+![buildphases](./../assets/build_phases.png)
 
 
 
