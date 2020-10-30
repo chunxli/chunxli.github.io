@@ -59,7 +59,7 @@ make release
 ![sparkle2.0](./embed-frameworks-and-xpcs.png)
 
 ### 4. Copy XPC files to XPC Service
-![buildphases](./buildphases.png)
+![buildphases]({{site.url}}/assets/buildphases.png)
 
 
 
