@@ -14,7 +14,7 @@ categories: appcenter macOS
 
 ## App Sandbox
 
-![App Sandbox](../assets/app_sandbox.png)
+![App Sandbox](../assets/appsandbox.png)
 
 
 # Sparkle (In-App Update)
@@ -56,10 +56,10 @@ make release
 
 ### 3. Drag Sparkle.framework and XPC files to project
 
-![sparkle2.0](./../assets/embed_frameworks_and_xpcs.png)
+![sparkle2.0](./../assets/embed-frameworks-and-xpcs.png)
 
 ### 4. Copy XPC files to XPC Service
-![buildphases](./../assets/build_phases.png)
+![buildphases](./../assets/buildphases.png)
 
 
 
